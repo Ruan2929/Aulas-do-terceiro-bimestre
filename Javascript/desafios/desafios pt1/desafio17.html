@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let dias = parseFloat(prompt('quantos dias a viagem vai durar?'))
+        
+        let horas = parseFloat(prompt('diga as horas adicionais dessa viagem'))
+        
+        let minutos = (dias * 24 * 60) + (horas * 60);
+
+        window.alert('a viagem ira durar ' + minutos + ' minutos')
+    </script>
+</body>
+</html>

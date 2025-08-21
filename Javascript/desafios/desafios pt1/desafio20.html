@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       // Pede a data de nascimento no formato AAAA-MM-DD
+let dataNascimentoStr = prompt("Digite sua data de nascimento (AAAA-MM-DD):");
+
+// Converte para objeto Date
+let dataNascimento = new Date(dataNascimentoStr);
+
+// Data de hoje
+let hoje = new Date();
+
+// Calcula a diferença em milissegundos
+let diferencaMs = hoje - dataNascimento;
+
+// Converte para dias (1 dia = 24h * 60min * 60s * 1000ms)
+let idadeDias = Math.floor(diferencaMs / (1000 * 60 * 60 * 24));
+
+alert(`Você tem aproximadamente ${idadeDias} dias de vida.`);
+    </script>
+</body>
+</html>

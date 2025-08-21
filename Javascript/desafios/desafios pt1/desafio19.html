@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+</head>
+<body>
+    <script>
+        
+        let preço = parseFloat(prompt('Digite o valor do produto'))
+
+        let DescontoAVista = preço * 0.15
+        
+        let DescontoParcelado = preço * 0.10
+        
+
+        window.alert(`O desconto a vista é: R$ ${DescontoAVista.toFixed(2)}`)
+
+        window.alert(`O desconto a vista é: R$ ${DescontoParcelado.toFixed(2)}`)
+
+        window.alert(`O preço do produto a vista com desconto será: R$ ${preço - DescontoAVista.toFixed(2)}`)
+
+        window.alert(`O preço do produto parcelado com desconto será: R$ ${preço - DescontoParcelado.toFixed(2)}`)
+    </script>
+</body>
+</html>
