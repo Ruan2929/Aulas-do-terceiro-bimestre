@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="divMae">
+        <div class="primeiraDiv">
+            <div>
+                <p class="titulo">
+                    Página de cadastro
+                </p>
+            </div>
+            <form id="botao">
+                <div class="segundaDiv">
+                    
+                    <label class="classeDosLabels" for="name">
+                        <p class="classetamanhodafonte">Nome</p>
+                        <input type="text" class="classeDoNomeCompleto" placeholder="Coloque o seu nome completo"
+                        required>
+                    </label>
+                <label>   
+                    <p class="classetamanhodafonte">Email</p>
+                    <input type="email" class="classeEmail" placeholder="seuemail@gmail.com" required>
+                </label>
+                
+                <label class="classeDosLabels" for="date">
+                    <p class="classetamanhodafonte">Data de nascimento</p>
+                    <input type="date" class="classeData" placeholder="Data"  required>
+                <label>    
+                    <p class="classetamanhodafonte">Confirme a sua senha</p>
+                    <input type="password" class="classeSenha" placeholder="Senha" maxlength="20" required>
+                </label>
+                
+                <p class="classetamanhodafonte">Selecione o seu genêre</p>
+            </div>
+            
+            <div class="terceiraDiv">
+                
+                
+                
+                <label class="classeDosLabels2" for="genero">
+                    <input type="radio" name="genêro" placeholder="Maculino" class="classeGenero" id="genero"
+                    required>
+                    <p class="classeDosParagrafos">Masculino</p>
+                </label>
+                
+                
+                <label class="classeDosLabels2" for="genero1">
+                    <input type="radio" name="genêro" placeholder="Feminino" class="classeGenero" id="genero1"
+                    required>
+                    <p class="classeDosParagrafos">Feminino</p>
+                    </label>
+                    
+                    
+                    <label class="classeDosLabels2" for="genero2">
+                        <input type="radio" name="genêro" placeholder="Outros" class="classeGenero" id="genero2"
+                        required>
+                        <p class="classeDosParagrafos">Outros</p>
+                    </label>
+                    
+                    
+                    <label class="classeDosLabels2" for="genero3">
+                        <input type="radio" name="genêro" placeholder="Prefiro não informar" class="classeGenero"
+                        id="genero3" required>
+                        <p class="classeDosParagrafos">prefiro não informar
+                        </p>
+                    </label>
+                    
+                    
+                    
+                </div>
+                <div>
+                    
+                    <button type="submit" name="botao" class="classeInputBotao" for="botao"
+                    onClick="document.bgColor=('lime')">
+                    Cadastre-se
+                    
+                </div>
+                
+                <div class="div4">
+                    <a href="../login/login.html" class="classeDoLink">JÁ TENHO CONTA</a>
+                </div>
+            </div>
+        </div>
+        
+    </form>
+    
+</div>
+
+<script></script>
+</body>
+
+
+
+</html>
