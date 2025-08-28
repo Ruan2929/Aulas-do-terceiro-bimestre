@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Quicksand", sans-serif;
+}
+
+body{
+    background-color: #f8b7b7;
+    height: 90vh;
+    
+}
+
+
+header.classeDoHeader{
+    height: auto;
+}
+
+nav.fundoNavBar{
+    display: flex;
+    background-color: #c97070;
+    align-items: center;
+    height: 10vh;
+    ;
+    transition: transform 0.3s ease;
+    justify-content: space-between;
+}
+
+nav.fundoNavBar:hover{
+    
+    box-shadow: 0px 0px 10px 0px rgb(109, 109, 109);
+}
+
+ul.navBarLista{
+    display: flex;
+    margin-right: 6%
+    ;
+}
+
+a.classeDosLinksDaLista{
+    color: #374f57;
+    transition: color ;
+    cursor: pointer;
+}
+
+a.classeDosLinksDaLista:hover{
+    color: rgb(255, 0, 0);
+    
+}
+
+
+li.lista{
+    margin-left: 100px;
+    font-size: 20px;
+    transition: 0.3s ;
+}
+
+li.lista:hover{
+    color: #b0d0da;
+}
+
+a.logoDoSite{
+    margin-left: 4%;
+    font-size: 200%;
+    user-select: none;
+    transition: transform 0.3s ease;
+    
+}
+
+a.logoDoSite:hover{
+    transform: scale(1.1);
+}
+
+
+section.segundaSection{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    
+}
+
+div.card1{
+    display: block;
+    background-color: rgb(208, 212, 212);
+    height: 80vh;
+    width: 27%;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-top: 3%;
+    transition: transform 0.3s ease;
+    
+    border-width: 1px;
+    margin-bottom: 5%;
+;
+}
+
+div.card2{
+    display: block;
+    background-color: rgb(208, 212, 212);
+    height: 80vh;
+    width: 27%;
+    text-align: center;
+    border-radius: 10px;    
+    transition: transform 0.3s ease;
+    
+    border-width: 1px;
+    margin-top: 3%;
+}
+
+div.card3{
+    display: block;
+    background-color: rgb(208, 212, 212);
+    height: 80vh;
+    width: 27%;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 3%;
+    transition: transform 0.3s ease;
+    
+    border-width: 1px;
+    margin-top: 3%;
+}
+
+div.card1:hover, div.card2:hover, div.card3:hover{
+    transform: scale(1.05); 
+}
+
+img.imagemCard{
+    height: 45vh;
+    width: 100%;
+    border-radius: 10px 10px 0 0; 
+}
+
+h3.titulo-card{
+    margin-top: 1%;
+    color: #151e21;
+}
+
+p.texto-card{
+    margin-top: 2%;
+
+}
+
+button.botaoDoCard{
+    margin-top: 23%;
+    border-radius: 5px;
+    border: none;
+    background-color: #cf5168;
+    width: 80%;
+    height: 7vh;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+button.botaoDoCard:hover{
+    transform: scale(1.05);
+}
+
+div.titulos{
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.titulo{
+    background-color: #cf5168;
+    justify-content: center;
+    text-align: center;
+    height: 7vh;
+    width: 25vw;
+    border-radius: 5px;
+    margin-left: 4.2%;
+    margin-top: 4%;
+    transition: transform 0.3s ease;
+    border: solid rgb(255, 0, 0);
+    
+    
+}
+
+div.titulo2{
+    background-color: #cf5168;
+    justify-content: center;
+    text-align: center;
+    height: 7vh;
+    width: 25vw;
+    border-radius: 5px;
+    margin-top: 4%;
+    transition: transform 0.3s ease;
+    border: solid rgb(255, 0, 0);
+}
+
+div.titulo3{
+    background-color: #cf5168;
+    justify-content: center;
+    text-align: center;
+    height: 7vh;
+    width: 25vw;
+    border-radius: 5px;
+    margin-top: 4%;
+    margin-right: 3%;
+    transition: transform 0.3s ease;
+    border: solid rgb(255, 0, 0);
+}
+
+
+
+p.tituloTexto{
+    margin-top: 3.5%;
+    color: rgb(16, 17, 17);
+    font-size: 3vh;
+    user-select: none;
+}
+
+div.titulo:hover, div.titulo2:hover, div.titulo3:hover{
+
+    transform: scale(1.02);
+
+}
+
+p.emoji{
+    margin-top: 4%;
+    font-size: 200%;
+    animation: circleMove  linear infinite;
+    user-select: none;
+}
+
+@keyframes circleMove {
+  from {
+    transform: rotate(0deg) translateX(5px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(5px) rotate(-360deg);
+  }
+}
+
+footer.rodape{
+    
+    display: block;
+    text-align: center;
+}

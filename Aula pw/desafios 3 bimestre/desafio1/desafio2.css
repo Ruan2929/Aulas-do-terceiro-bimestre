@@ -1,0 +1,40 @@
+.div1{
+    background-color: blue;
+    height: 100px;
+    width: 40%;
+    margin-left: 55%;
+    margin-top: 10px;
+
+}
+
+p{
+    font-size: 50px;
+    padding: 19px;
+   
+}
+
+*{
+    margin: 0;
+
+}
+
+.div2{
+    position: fixed;
+    background-color: tomato;
+    height: 300px;
+    width: 25%;
+    margin-left: 200px;
+
+}
+
+.div3{
+    margin-top: 180px;
+    background-color: tomato;
+    height: 300px;
+    width: 25%;
+    margin-left: 400px;
+}
+
+body{
+    background-color: rgb(90, 86, 85);
+}

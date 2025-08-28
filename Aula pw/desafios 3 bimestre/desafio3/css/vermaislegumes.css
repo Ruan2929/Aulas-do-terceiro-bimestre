@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Quicksand", sans-serif;
+}
+
+body{
+    background-color: #fdfcfc;
+    
+    
+}
+
+
+header.classeDoHeader{
+    height: auto;
+}
+
+nav.fundoNavBar{
+    display: flex;
+    background-color: #fdfcfc;
+    height: 10vh;
+    align-items: center;
+    
+    
+    z-index: 100;  
+
+   
+}
+
+
+ul.navBarLista{
+    display: flex;
+    gap: 20%;
+    margin-left: 37%;
+    margin-top: 0.5%;
+}
+
+a.classeDosLinksDaLista{
+    color: #374f57;
+    transition: color ;
+    cursor: pointer;
+}
+
+a.classeDosLinksDaLista:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+
+li.lista{
+    font-size: clamp(0.7vw, 0.9vw, 1.1vw);
+    transition: 0.3s ;
+    
+}
+
+li.lista:hover{
+    color: #b0d0da;
+}
+
+a.logoDoSite{
+    margin-left: 2%;
+    font-size: clamp(1.8vw, 2vw, 2.2vw);
+    user-select: none;
+    color: #374f57;
+}
+
+div.palavrasChaves{
+    margin-left: 2%;
+    
+}

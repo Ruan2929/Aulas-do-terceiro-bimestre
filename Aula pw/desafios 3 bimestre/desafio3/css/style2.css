@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Quicksand", sans-serif;
+    
+}
+
+
+body{
+    background-color: #fdfcfc;
+    
+    
+}
+
+
+header.classeDoHeader{
+    height: auto;
+}
+
+nav.fundoNavBar{
+    display: flex;
+    background-color: #fdfcfc;
+    height: 10vh;
+    align-items: center;
+    position: fixed;
+    
+    z-index: 100;  
+    width: 100%;
+   
+}
+
+
+ul.navBarLista{
+    display: flex;
+    gap: 20%;
+    margin-left: 37%;
+    margin-top: 0.5%;
+}
+
+a.classeDosLinksDaLista{
+    color: #374f57;
+    transition: color ;
+    cursor: pointer;
+}
+
+a.classeDosLinksDaLista:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+
+li.lista{
+    font-size: clamp(1vw, 1vw, 1.1vw);
+    transition: 0.3s ;
+    user-select: none;
+}
+
+
+
+a.logoDoSite{
+    margin-left: 2%;
+    font-size: clamp(1.8vw, 2vw, 2.2vw);
+    user-select: none;
+    color: #374f57;
+}
+
+div.palavrasChaves{
+    margin-left: 2%;
+    
+}
+
+p.texto1{
+    font-size: clamp(0.7vw, 0.9vw, 1.1vw);
+    color: #374f57;
+    display: flex;
+}
+
+section.section1{
+    height: 100vh;
+    display: flex;
+}
+
+img.imagemMorango{
+    max-width: 40vw;
+    height: 60vh;
+    border-radius: 5px;
+    margin-top: 10%;
+    margin-left: 20%;
+   
+}
+
+div.tituloDiv{
+    width: 35%;
+    height: 38vh;
+    margin-top: 10%;
+    margin-left: 2%;
+    
+    
+}
+
+h1.titulo{
+    font-size: clamp(4.8vw, 5vw, 5.2vw); ;
+}
+
+p.conteudoTexto{
+    color: #5b5f61;
+    font-size: clamp(0.6vw, 0.8vw, 1vw);
+}
+
+div.divBotao{
+    display: flex;
+    margin-top: 4%;
+    gap: 10px;
+}
+
+button.botao{
+    font-size: clamp(0.8vw, 1vw, 1.2vw);
+    height: 7h;
+    width: 15vw;
+    
+    border: none;
+    cursor: pointer;
+    border: solid rgb(151, 150, 150);
+    border-width: 1px;
+}
+
+button.botao2{
+    height: 7vh;
+    width: 8vw;
+    
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: clamp(0.8vw, 1vw, 1.2vw);
+}
+
+div.tituloDiv1{
+    width: 95%;
+    margin-left: 2%;
+    
+    
+}
+
+div.cards{
+    gap: 4%;
+    display: flex;
+    min-height: 50vh;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.card1legumes{
+    word-break: break-all;
+    width: 20%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 35vh;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+    margin-top: 2%;
+}
+
+img.imagemCards{
+    height: 25vh;
+    width: 100%;
+    border-radius: 10px 10px 0 0
+}
+
+
+div.card2legumes{
+    
+    width: 20%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 35vh;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+    
+    margin-top: 2%;
+}
+
+div.card3legumes{
+    
+    width: 20%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 35vh;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+    
+    margin-top: 2%;
+}
+
+div.card4legumes{
+    
+    width: 20%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 35vh;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+    
+    margin-top: 2%;
+}
+
+div.card1legumes:hover, div.card2legumes:hover, div.card3legumes:hover, div.card4legumes:hover{
+   transform:  translateY(-10px);
+}   
+
+h2.titulo2{
+    font-size: clamp(1vw, 1.2vw, 1.4vw) ;
+    
+}
+
+a.verMais{
+    margin-left: 95%;
+    color: #374f57;
+    font-size: clamp(0.6vw, 0.8vw, 1vw);
+}
+
+a.verMais:hover{
+    text-decoration: underline;
+    color: #374f57;
+}
+
+h4.titulo3{
+    font-size: clamp(1vw, 1.2vw, 1.4vw);
+    margin-left: 1%;
+}
+
+p.conteudoTexto1{
+    font-size: clamp(0.6vw, 0.8vw, 1vw);
+    margin-left: 1%;
+    
+}

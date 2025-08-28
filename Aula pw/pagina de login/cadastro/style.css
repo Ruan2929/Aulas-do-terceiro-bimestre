@@ -5,7 +5,7 @@
 
 
 body{
-    background: #d8d3d3;
+    background: #ffffff;
 
 }
 
@@ -25,7 +25,7 @@ p.titulo{
 }
 
 input[type="text"],input[type="date"], input[type="email"], input[type="password"]{
-    background: #d8d3d3;
+    background: #ffffff;
     border: 0.5px solid rgb(159, 155, 155);
     width: 90%;
     height: 30px;
@@ -95,6 +95,7 @@ button.classeInputBotao{
 }
 
 button.classeInputBotao{
+    background-color: #b3afaf;
     transition: background-color 0.7s ease;
     transform: box-shadow 0.7s ease;
     cursor: pointer;

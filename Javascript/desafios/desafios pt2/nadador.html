@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let idade = parseFloat(prompt('qual a idade do nadador?'))
+
+        if(isNaN (idade) || idade<=0){
+            document.write('ERRO, digite uma idade valida')
+        }
+
+        else{
+            if(idade >= 0.7 && idade <=2){
+                document.write('Nadador maternal')
+            } else if( idade >= 3 && idade <= 7){
+                document.write('Nadador infantil')
+            }
+            else if( idade >= 8 && idade <= 12){
+                document.write("Nadador intermediario")
+            }
+            else if( idade >= 13 && idade <= 18){
+                document.write("Nadador alto nivel")
+            }
+            else if( idade >= 19 && idade <= 50){
+                document.write("Nadador senior")
+            }
+            else if( idade >= 51 && idade <= 100){
+                document.write("Nadador melhor idade")
+            }
+            else{
+                document.write("não poderá realizar atividades físicas, apenas com orientações médicas. ")
+            }
+        }
+    </script>
+</body>
+</html>

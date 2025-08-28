@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Quicksand", sans-serif;
+}
+
+body{
+    background-color: #b0d0da;
+    height: 90vh;
+    
+}
+
+
+header.classeDoHeader{
+    height: auto;
+}
+
+nav.fundoNavBar{
+    display: flex;
+    background-color: #8fa9cf;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+nav.fundoNavBar:hover{
+    
+    box-shadow: 0px 0px 10px 0px rgb(109, 109, 109);
+}
+
+ul.navBarLista{
+    display: flex;
+    margin-right: 6%
+    ;
+}
+
+a.classeDosLinksDaLista{
+    color: #374f57;
+    transition: color ;
+    cursor: pointer;
+}
+
+a.classeDosLinksDaLista:hover{
+    color: rgb(2, 162, 255);
+    
+}
+
+
+li.lista{
+    margin-left: 100px;
+    font-size: 20px;
+    transition: 0.3s ;
+}
+
+li.lista:hover{
+    color: #b0d0da;
+}
+
+a.logoDoSite{
+    margin-left: 4%;
+    font-size: 200%;
+    user-select: none;
+    transition: transform 0.3s ease;
+}
+
+a.logoDoSite:hover{
+    transform: scale(1.1);
+}
+
+div.divDasLaranjas{
+    display: flex;
+    height: 110vh;
+    margin-top: 4%;
+     
+}
+
+
+img.laranjasImagens{
+    height: 20vh;
+    position: absolute;
+    animation: circleMove 5s linear infinite;
+    transition: height 0.3s ease;
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+img.laranjasImagens2{
+    height: 20vh;
+    position: fixed;
+    margin-top: 22%;
+    animation: circleMove 5s linear infinite;
+    transition: height 0.3s ease;
+    margin-left: 7%;
+}
+
+img.laranjasImagens3{
+    height: 20vh;
+    position: fixed;
+    margin-top: 40%;
+    animation: circleMove 5s linear infinite;
+    transition: height 0.3s ease;
+    margin-left: 7%;
+}
+
+img.laranjasImagens:hover, img.laranjasImagens2:hover, img.laranjasImagens3:hover{
+
+    height: 20%;
+
+}
+
+img.bananaImagens{
+    height: 20vh;
+    position: absolute;
+    animation: circleMove 5s linear infinite;
+    transition: height 0.3s ease;
+    margin-left: 82%;
+    margin-top: 5%;
+}
+
+img.bananaImagens2{
+    height: 20vh;
+    position: fixed;
+    margin-top: 22%;
+    animation: circleMove 5s linear infinite;
+    transition: height 0.3s ease;
+    margin-left: 82%;
+    
+}
+
+img.bananaImagens3{
+    height: 20vh;
+    position: fixed;
+    margin-top: 40%;
+    animation: circleMove 5s linear infinite;
+    transition: height 0.3s ease;
+    margin-left: 82%;
+    
+}
+
+img.bananaImagens:hover, img.bananaImagens2:hover, img.bananaImagens3:hover{
+
+    height: 20%;
+
+}
+
+@keyframes circleMove {
+  from {
+    transform: rotate(0deg) translateX(12px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(12px) rotate(-360deg);
+  }
+}
+
+div.textoPaginaInicial{
+    display: block;
+    height: 60vh;
+    width: 40vw;
+    margin-left: 30%;
+    margin-top: 10%;
+    justify-content: center;
+    position: fixed;
+    
+    
+}
+
+button.textoPaginaInicial2{
+    background-color: #cf5168;
+    display: flex;
+    height: 15%;
+    border-radius: 5px;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+    transition: transform 0.3s ease;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    border: solid black;
+    border-width: 2px;
+}
+
+button.textoPaginaInicial3{
+    background-color:#b2ec9b;
+    display: flex;
+    height: 15%;
+    border-radius: 5px;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17%;
+    transition: transform 0.3s ease;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    border: solid black;
+    border-width: 2px;
+}
+
+
+button.textoPaginaInicial4{
+    background-color:#a38e82;
+    display: flex;
+    height: 15%;
+    border-radius: 5px;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17%;
+    transition: transform 0.3s ease;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    border: solid black;
+    border-width: 2px;
+}
+
+
+
+button.textoPaginaInicial2:hover, button.textoPaginaInicial3:hover, button.textoPaginaInicial4:hover{
+    
+    transform: scale(1.05);
+}
+
+div.titulo{
+    display: flex;
+    height: 25px;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+
+    width: 40vw;
+    
+}
+
+footer.rodape{
+    margin-top: 5%;
+    display: block;
+    text-align: center;
+}
+
