@@ -7,17 +7,15 @@
 </head>
 <body>
     <script>
+        let x = 1;
 
-        let a = Number(prompt('digite um número'))
-        
-        if(a > 100){
-            document.write('é maior que 100')
-        }
-        else{
-            document.write('é menor que 100')
-        }
-
-
+        do{
+            if(x % 3 == 0){
+                document.write('os numeros multiplos de 3 são: ' + x + "<br>" )
+                x++;
+            }
+            
+        } while(x<=20)
     </script>
 </body>
 </html>

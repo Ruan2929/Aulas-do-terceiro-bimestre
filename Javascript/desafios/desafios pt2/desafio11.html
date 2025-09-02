@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let macas = parseFloat(prompt('quantas maçãs vc comprou?'))
+
+        if(macas <  12){
+
+            let preco = 1.30
+
+            document.write('o preço das maçãs é ' + (preco * macas) + 'R$')
+        }
+
+        else if(macas >= 12){
+
+            let preco1 = 1
+
+            document.write('o preço das maçãs é ' + (preco1 * macas + 'R$'))
+        }
+    </script>
+</body>
+</html>
